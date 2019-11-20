@@ -1,9 +1,9 @@
-defmodule Proj1.MixProject do
+defmodule VampireNumbers.MixProject do
   use Mix.Project
 
   def project do
     [
-      app: :proj1,
+      app: :vampire_numbers,
       version: "0.1.0",
       elixir: "~> 1.9",
       start_permanent: Mix.env() == :prod,
@@ -29,6 +29,6 @@ defmodule Proj1.MixProject do
   end
 
   def escript do
-    [main_module: Proj1.CLI]
+    [main_module: VampireNumbers.CLI]
   end
 end
